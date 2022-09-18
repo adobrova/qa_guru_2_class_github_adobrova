@@ -7,11 +7,11 @@ import java.util.Random;
 public class ExampleTest {
     @Test
     void exampleTest0(){
-        Assertions.assertTrue( new Random().nextInt() > 4);
+        Assertions.assertTrue( 3 > 2);
     }
 
     @Test
     void exampleTest1(){
-        Assertions.assertTrue(new Random().nextInt() > 6);
+        Assertions.assertTrue(4 > 3);
     }
 }
